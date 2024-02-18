@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: micronaut-validation
+  router:
+    static-resources:
+      main:
+        paths: classpath:META-INF/resources
+        mapping: /**
