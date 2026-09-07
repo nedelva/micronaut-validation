@@ -122,6 +122,9 @@
         <configuration>
           <!-- Uncomment to enable incremental compilation -->
           <!-- <useIncrementalCompilation>false</useIncrementalCompilation> -->
+          <source>${jdk.version}</source>
+          <target>${jdk.version}</target>
+          <release>${release.version}</release>
 
           <annotationProcessorPaths combine.children="append">
             <path>
